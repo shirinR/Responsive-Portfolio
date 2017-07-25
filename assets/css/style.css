@@ -260,9 +260,31 @@ h6 {
     color: #bbb;
 }
 
-@media screen and (min-width: 450px) {
-    body{
-        background-color: #333;
-    }
+@media screen and (max-width: 980px) {
+  .container {
+      width: 980px;
+      margin: 0 auto;
+  }
 
+  .content-body {
+      width: 500px;
+      background-color: #fff;
+      padding: 25px;
+      border: 1px solid #ddd;
+  }
+
+  .profile_img{
+      width: 450px;
+      height: 400px;
+      float:left;
+      margin-right: 15px;
+      margin-bottom: 12px;
+      z-index: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
 }
