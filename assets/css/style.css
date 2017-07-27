@@ -255,6 +255,19 @@ h6 {
       border-left: 0;
       margin-left:160px;
     }
+    .box{
+        float: left;
+        position: relative;
+        width: 446px;
+        height: 200px;
+        margin-bottom: 40px;
+        margin-right: 5px;
+    }
+    .activity_image{
+        width: 446px;
+        height: 200px;
+        position: relative;
+    }
   }
 @media screen and (max-width: 768px) {
   .container {
@@ -268,11 +281,11 @@ h6 {
     margin-left: 20px;
   }
   .content-body {
-      width: 700px;
+      width: 622px;
       background-color: #fff;
       padding: 25px;
       border: 1px solid #ddd;
-      margin-left: 20px;
+      margin-left: 70px;
   }
   .profile_img{
       width: 300px;
@@ -284,11 +297,28 @@ h6 {
     }
   .content-sidebar{
     margin-top: 25px;
-    width: 700px;
-    margin-left: 20px;
+    width: 622px;
+    margin-left: 70px;
   }
   .content-sidebar .social-links img{
     margin-right: 12px;
+  }
+  .box{
+      float: left;
+      position: relative;
+      width: 280px;
+      height: 200px;
+      margin-bottom: 20px;
+      margin-right: 5px;
+  }
+  .box_2, .box_4{
+      margin-right: 0;
+      margin-left: 4px;
+  }
+  .activity_image{
+      width: 280px;
+      height: 200px;
+      position: relative;
   }
   .footer {
     text-align: center;
